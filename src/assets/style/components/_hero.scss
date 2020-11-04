@@ -1,0 +1,50 @@
+.hero {
+    color: $colorMain;
+    min-height: 80vh;
+
+    h1 {
+        font-size: 3rem;
+        color: $colorThird;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .hero-container {
+        min-height: 80vh;
+        ;
+    }
+
+    .txt-container {
+
+        h1,
+        button {
+            margin-bottom: 15px;
+        }
+
+        &:first-child {
+            margin-bottom: 85px;
+        }
+
+        &:last-child {
+            width: 280px;
+            text-align: center;
+
+            button {
+                width: 100%;
+            }
+
+            p {
+                font-size: 0.8rem;
+                color: #b7a8a8;
+            }
+        }
+    }
+
+    .hero-details {
+        width: 520px;
+    }
+
+
+}

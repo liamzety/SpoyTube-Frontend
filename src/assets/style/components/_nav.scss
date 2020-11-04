@@ -1,0 +1,44 @@
+nav {
+    min-height: 8vh;
+
+    .nav-container {
+
+        h1 {
+            font-size: 26px;
+        }
+
+        a {
+            font-weight: 700;
+        }
+
+        span {
+            color: $colorFourth;
+        }
+
+        .nav-links {
+            width: 150px;
+        }
+    }
+
+    .bg-shapes-container {
+        min-height: 8vh;
+    }
+
+    .bg-shape-container1 {
+        top: 0;
+        right: 0;
+        max-width: 50px;
+        overflow: hidden;
+        max-height: 50px;
+    }
+
+    .bg-shape-container2 {
+        bottom: 0;
+        left: 0;
+        max-width: 50px;
+        overflow: hidden;
+        max-height: 50px;
+    }
+
+
+}

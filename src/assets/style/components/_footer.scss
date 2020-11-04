@@ -1,0 +1,30 @@
+footer {
+    color: $colorMain;
+    background-color: #5008500f;
+    min-height: 12vh;
+
+    .creators {
+        padding: 15px 0;
+    }
+
+    .creator:first-of-type {
+        margin-right: 50px;
+    }
+
+    .creator {
+        p {
+            padding-bottom: 20px;
+        }
+    }
+
+    .social-container {
+        width: 100px;
+
+    }
+
+    .social-temp {
+        width: 25px;
+        height: 25px;
+        background-color: lightcoral;
+    }
+}

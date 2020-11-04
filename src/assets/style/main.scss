@@ -1,0 +1,21 @@
+// BASICS
+@import './basics/variables';
+@import './basics/helpers';
+@import './basics/base';
+@import './basics/typography';
+@import './basics/animations';
+// VIEWS
+@import './views/home';
+@import './views/transfer';
+
+// COMPONENTS
+@import './components/playlist-app';
+@import './components/playlist-add';
+@import './components/playlist-preview';
+@import './components/playlist_list';
+@import './components/nav';
+@import './components/hero';
+@import './components/footer';
+
+//MODALS
+// @import './modals/screen-modal';
